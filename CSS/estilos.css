@@ -1,93 +1,138 @@
-/*selector{
-    propiedad: valor
-    propiedad: valor 
-
-}*/
-/* estilos body*/
-/*color principal de la pagina*/
-
-/*aca van a ir los imports*/
-@import url('https://fonts.googleapis.com/css2? family= Mulish:ital,wght@0,400;1,300 & family= Nunito:ital,wght@0,300;1,200;1,500 & display=swap' );
-
-*{
-    margin: 1%;
-    padding: 1px;
-    box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
-
-}
-/*color de fondo de la pagina*/
-body{
-  background-color: rgb(233, 218, 200);
-
-}
-/*estilados del header*/
-header{
-
-    background-color: rgb(213, 104, 122);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    align-items: center;
-      
-}
-.contenedorDeLogo .logo{
-    width: 200px;
-    
-}
-.logo
-{
-    width: 200px;
-}
-/*Estilados para la navegacion*/
-.listaNavegacion{
-    
-    list-style: none;
-    margin: 10px;
-    display: inline block;
-    padding: 10px;
-    justify-content: end;
-    
-   /*display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   align-items: center;
-   text-align: center;*/
-   
-
-
-    
-
-}
-.linkNav{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-
-/*estilados seccion principal index*/
-.sectionPincipalIndex{
-    background-color: rgb(243, 234, 223);
-    font-size: 20px;
-
-
-}
-
-.colorFondoHeader{
-    background-color: aliceblue;
+@charset "UTF-8";
+/*variables*/
+@import url("https://fonts.googleapis.com/css2? family= Mulish:ital,wght@0,400;1,300 & family= Nunito:ital,wght@0,300;1,200;1,500 & display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 
 /* centrados de texto*/
-.textoCentrado{
-    text-align: center;
-}
-.imagenTamaño{
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-  
+.textoCentrado {
+  text-align: center;
 }
 
+/*color de fondo de la pagina*/
+body {
+  background-color: rgb(233, 218, 200);
+  font-size: larger;
+}
+
+/*estilados del header*/
+header {
+  background-color: rgb(213, 104, 122);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .contenedorDeLogo .logo {
+  width: 200px;
+}
+header .contenedorDeLogo .logo .logo {
+  width: 200px;
+}
+
+/*.contenedorDeLogo .logo{
+    width: 200px;
+
+}
+.logo{
+    width: 200px;
+}
+
+/*Estilados para la navegacion*/
+.listaNavegacion {
+  list-style: none;
+  margin: 10px;
+  display: inline block;
+  padding: 10px;
+  justify-content: end;
+}
+.listaNavegacion .linkNav {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.linkNav {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/*estilados seccion principal index*/
+.sectionPincipalIndex {
+  font-size: 20px;
+}
+
+.colorFondoHeader {
+  background-color: aliceblue;
+}
+
+/*Seccion footer*/
+.footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+.footer .contenedorRedesSociales {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer .contenedorRedesSociales .contenedorRedesSociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .contenedorRedesSociales .contenedorRedesSociales .contenedorRedesSociales a {
+  color: rgb(253, 253, 253);
+  font-size: 40px;
+  text-decoration: none;
+  padding: 0%;
+}
+
+/*.contenedorRedesSociales{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contenedorRedesSociales a{
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0%;
+
+
+}   */
+/* estilos body*/
+/*color principal de la pagina*/
+/*aca van a ir los imports*/
+/*color de fondo de la pagina*/
+body {
+  background-color: rgb(233, 218, 200);
+  font-size: larger;
+}
+
+/*estilados seccion principal index*/
+.sectionPincipalIndex {
+  background-color: rgb(243, 234, 223);
+  font-size: 20px;
+}
+
+.imagenTamaño {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
 
 /*page "que hacemos"
 .imagenesDeTortas{
@@ -100,38 +145,23 @@ header{
 
 }
 .img{
-    
+
     border: 1px solid black;
     width:auto;
     height: auto;
     height: auto;
 
 }*/
+@media screen and (max-width: 768px) {
+  section {
+    flex-wrap: wrap;
+  }
+  section img {
+    height: 80%;
+  }
+  section img:hover {
+    width: 60%;
+  }
+}
 
-/*Seccion footer*/
-.footer{
-    background-color: rgb(22, 21, 21);
-}
-.contenedorRedesSociales{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.contenedorRedesSociales a{
-    color: rgb(253, 253, 253);
-    font-size: 30px;
-    text-decoration: none;
-    
-}   
-@media screen and (max-width: 768px){
-    section{
-        flex-wrap: wrap;
-    }
-    section img{
-        height: 80%;
-    }
-    section img:hover{
-        width: 70%;
-        
-    }
-}
+/*# sourceMappingURL=estilos.css.map */
