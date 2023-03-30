@@ -8,77 +8,109 @@
        <!--favicon-->
      <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
        <!--estilos-->
+       <link rel="stylesheet" href="./CSS/bootstrap.css"><!--bs-->
        <link rel="stylesheet" href="../CSS/estilos.css">
        <link rel="stylesheet" href="./CSS/fontawesome-free-6.3.0-web/all.min.css">
        <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
 
 </head>
     <body>
-        <header>
-            <div class="contenedorDeLogo">
-                <img src="../assets/img/Cake Queen_free-file (1).png" width="200px" alt="logo pasteleria Cake Queen">
+        <header class="colorFondoHeader ">
+
+            <div class="contenedorDeLogo .Logo">
+                <img src="../assets/img/Cake Queen_free-file (1).png" alt="logo pasteleria Cake Queen">
             </div>
-            <nav>
-                <!--esto es una lista desordenada de navegacion-->
-                <a class="linkNav" href="../index.html">INICIO</a>
-
-                <a class="linkNav" href="quehacemos.html">QUE HACEMOS</a>
-
-                <a class="linkNav" href="equipo.html">EQUIPO</a>
-
-                <a class="linkNav" href="eventos.html">EVENTOS</a>
-
-                <a class="linkNav" href="#">SUCURSALES</a>
+            <nav class="listaNavegacion">
+            <div class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">INICIO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="listaNavegacion">
+                        <a class="nav-linlinkNav" aria-current="page" href="../pages/quehacemos.html">QUE HACEMOS</a>
+                      </li>
+                       <div class="listaNavegacion"> 
+                        <a class="linkNav"  href="../pages/equipo.html">EQUIPO</a>
+                      </div>
+                        <div class="listaNavegacion">  
+                        <a class="linkNav" href="../pages/eventos.html">EVENTOS</a>
+                      </div>
+                      <div class="listaNavegacion ">  
+                        <a class="linkNav" href="#">SUCURSALES</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
 
     </header>
     <main>
-        <section>
-            <h1>Nuestras sucursales</h1>
-            <h2>Pimero ingresa tus datos para poder recibir nuestros avisos y asi ser la primera persona en enterarte de todo</h2>
+        <section >
+            <!--<h1 class="textoCentrado">Nuestras sucursales</h1>-->
+            <h2 class="textoCentrado">Primero ingresa tus datos para poder recibir nuestros avisos y asi ser la primera persona en enterarte de todo</h2>
              <form action="">
                 <div>
                     <label for="">Nombre completo:</label>
-                    <input type="text" placeholder="Escriba su nombre" required >
+                    <input type="text" placeholder="escriba su nombre" required >
                 </div>
                 <div>
                     <label for="">Apellido:</label>
-                    <input type="text" placeholder="Escriba su Apellido" required >
+                    <input type="text" placeholder="escriba su apellido" required >
                 </div>
               
                 <div>
                     <label for="">Email: </label>
-                    <input type="email" placeholder="escriba su Email">
+                    <input type="email" placeholder="escriba su email">
                 </div>
                 <div>
                     <label for="">Contraseña: </label>
                     <input type="password" placeholder="contraseña">
                 </div>
                 <div>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="enviar">
                 </div>
 
 
              </form>
         </section>
         <!--Horarios de atencion, Ubicaciones de sucursales-->
-        <section>
-            <h1>Visitanos en alguna de nuestras sucursales</h1>
+        <section class="horarioFlex  textoCentrado">
+            <h1 class="textoCentrado">Visitanos en alguna de nuestras sucursales</h1>
 
-            <h2>Horarios de atencion</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit harum id molestias pariatur rem voluptas perspiciatis fugit! Cupiditate repellendus saepe numquam, non consectetur necessitatibus adipisci voluptatum consequuntur quam sequi?</p>
-        </section>
+            <h2 class="textoCentrado">Horarios de atencion</h2>
+           
+             <ul class="boxHorariosDeAtencion">
+              <li >
+               -Lunes a viernes  9:00am a 18:00pm
+              </li>
+              <li>
+               -Sabados 9:00am a 16:00pm 
+              </li>
+              <li>
+               -Domingo CERRADO
+              </li>
+              <li>
+               Horarios de atencion , validos para todas nuestras sucursales
+              </li>
+              </ul>
+            
+
+
+        </section  class="textoCentrado" >
        
-        >
             <h2>Ubicaciones</h2>
 
-            <p>- Av. Donato Alvarez 7825 , Barrio 9 de julio</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.985430053572!2d-64.26582048485405!3d-31.331775481432405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329c17a4395275%3A0x78d426bc75e29e96!2sTte.%20Gral.%20Donato%20Alvarez%207825%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1676609322805!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>- Av. Donato Alvarez 7825 , Barrio 9 de julio</div>
+            <iframe width="560" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.985430053572!2d-64.26582048485405!3d-31.331775481432405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329c17a4395275%3A0x78d426bc75e29e96!2sTte.%20Gral.%20Donato%20Alvarez%207825%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1676609322805!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
-            <p>-Obispo trejo 620, Barrio Guemes</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9629.970859813498!2d-64.18879529056025!3d-31.422146872726323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a285e5d87cd9%3A0x19f64c1cf996729f!2sObispo%20Trejo%20620%2C%20X5000%20IYN%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1677194110838!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>-Obispo trejo 620, Barrio Guemes</div>
+            <iframe width="560" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9629.970859813498!2d-64.18879529056025!3d-31.422146872726323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a285e5d87cd9%3A0x19f64c1cf996729f!2sObispo%20Trejo%20620%2C%20X5000%20IYN%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1677194110838!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <p>- Fermin Martin 7500, Barrio Cooperativa</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5731.3160598510685!2d-64.24972726465265!3d-31.335213916740855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329c0136ef4695%3A0x5a4fdbf78f353b71!2sFermin%20Martin%207500%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1677194265332!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>- Fermin Martin 7500, Barrio Cooperativa</div>
+            <iframe width="560" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5731.3160598510685!2d-64.24972726465265!3d-31.335213916740855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329c0136ef4695%3A0x5a4fdbf78f353b71!2sFermin%20Martin%207500%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1677194265332!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
         </section>
@@ -89,12 +121,12 @@
     <footer class="footer">
             
         <!--Aqui van a ir todas las redes sociales -->
-         <div class="contenedorRedesSociales">
-             <a href="https://www.instagram.com/_danisaonaa/"    target="_blank"  i class="fa-brands fa-instagram"></i></a>
-             <a href="https://twitter.com/_danisaonaa"  target="_blank" i class="fa-brands fa-twitter"></i></a>
-             <a href="https://www.tiktok.com/@dani_saonaaaa?lang=es"  target="_blank" i class="fa-brands fa-facebook-f"></i></a>
-             <a href="https://chat.whatsapp.com/BftUESljZzc9ftxM0Olnuy" target="_blank"  i class="fa-brands fa-whatsapp"></i></a>
-         </div>
+        <div class="contenedorRedesSociales">
+            <a href="https://www.instagram.com/"    target="_blank"  i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/i/flow/login"  target="_blank" i class="fa-brands fa-twitter"></i></a>
+            <a href="https://es-la.facebook.com/"  target="_blank" i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://chat.whatsapp.com/BftUESljZzc9ftxM0Olnuy" target="_blank"  i class="fa-brands fa-whatsapp"></i></a>
+        </div>
 
     
     </footer>

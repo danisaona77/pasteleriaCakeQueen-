@@ -5,24 +5,13 @@
 @import "utilidades.scss";
 @import "body.scss";
 @import "header.scss";
+@import "main.scss";
 @import "footer.scss";
 
 
 
-/* estilos body*/
-/*color principal de la pagina*/
-
 /*aca van a ir los imports*/
 @import url('https://fonts.googleapis.com/css2? family= Mulish:ital,wght@0,400;1,300 & family= Nunito:ital,wght@0,300;1,200;1,500 & display=swap' );
-
-
-/*color de fondo de la pagina*/
-body{
-  background-color: rgb(233, 218, 200);
-  font-size: larger;
-
-
-}
 
 
 
@@ -34,34 +23,6 @@ body{
 
 }
 
-
-
-.imagenTamaño{
-    width: 70%;
-    height: 70%;
-    object-fit: cover;
-  
-}
-
-
-/*page "que hacemos"
-.imagenesDeTortas{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px; ;
-
-}
-.img{
-    
-    border: 1px solid black;
-    width:auto;
-    height: auto;
-    height: auto;
-
-}*/
 
 
 @media screen and (max-width: 768px){
@@ -76,3 +37,11 @@ body{
         
     }
 }
+
+@media screen {
+
+
+    
+}
+
+

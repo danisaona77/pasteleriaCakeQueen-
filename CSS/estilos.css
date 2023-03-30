@@ -11,12 +11,38 @@
 /* centrados de texto*/
 .textoCentrado {
   text-align: center;
+  font-size: 20px;
+}
+
+.imagenTamaño {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
 }
 
 /*color de fondo de la pagina*/
 body {
   background-color: rgb(233, 218, 200);
   font-size: larger;
+}
+
+/*Horarios de atencion de las sucursales*/
+.horarioFlex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 30px;
+}
+.horarioFlex .boxHorariosDeAtencion {
+  border-radius: 20px 19px 19px 19px;
+  -webkit-border-radius: 20px 19px 19px 19px;
+  -moz-border-radius: 20px 19px 19px 19px;
+  background: rgba(215, 103, 183, 0.57);
+  padding: 30px;
+  width: 50vh;
+}
+.horarioFlex .boxHorariosDeAtencion li {
+  list-style: none;
 }
 
 /*estilados del header*/
@@ -26,20 +52,13 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 header .contenedorDeLogo .logo {
   width: 200px;
 }
 header .contenedorDeLogo .logo .logo {
   width: 200px;
-}
-
-/*.contenedorDeLogo .logo{
-    width: 200px;
-
-}
-.logo{
-    width: 200px;
 }
 
 /*Estilados para la navegacion*/
@@ -56,12 +75,6 @@ header .contenedorDeLogo .logo .logo {
   font-size: 18px;
 }
 
-.linkNav {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-}
-
 /*estilados seccion principal index*/
 .sectionPincipalIndex {
   font-size: 20px;
@@ -71,87 +84,38 @@ header .contenedorDeLogo .logo .logo {
   background-color: aliceblue;
 }
 
+main {
+  padding: 100px;
+}
+
 /*Seccion footer*/
 .footer {
   background-color: black;
   height: 100px;
   width: 100%;
+  padding: 50px;
 }
 .footer .contenedorRedesSociales {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.footer .contenedorRedesSociales .contenedorRedesSociales {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
   align-items: center;
 }
-.footer .contenedorRedesSociales .contenedorRedesSociales .contenedorRedesSociales a {
-  color: rgb(253, 253, 253);
-  font-size: 40px;
+.footer .contenedorRedesSociales a {
+  color: rgb(241, 226, 226);
+  font-size: 30px;
   text-decoration: none;
   padding: 0%;
 }
 
-/*.contenedorRedesSociales{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
-
-}
-.contenedorRedesSociales a{
-    color: rgb(253, 253, 253);
-    font-size: 30px;
-    text-decoration: none;
-    padding: 0%;
-
-
-}   */
-/* estilos body*/
-/*color principal de la pagina*/
 /*aca van a ir los imports*/
-/*color de fondo de la pagina*/
-body {
-  background-color: rgb(233, 218, 200);
-  font-size: larger;
-}
-
 /*estilados seccion principal index*/
 .sectionPincipalIndex {
   background-color: rgb(243, 234, 223);
   font-size: 20px;
 }
 
-.imagenTamaño {
-  width: 70%;
-  height: 70%;
-  object-fit: cover;
-}
-
-/*page "que hacemos"
-.imagenesDeTortas{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px; ;
-
-}
-.img{
-
-    border: 1px solid black;
-    width:auto;
-    height: auto;
-    height: auto;
-
-}*/
 @media screen and (max-width: 768px) {
   section {
     flex-wrap: wrap;

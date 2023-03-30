@@ -6,6 +6,7 @@ header{
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
+    padding: 10px;
 
     .contenedorDeLogo .logo{
         width: 200px;
@@ -17,13 +18,8 @@ header{
     }
       
 }
-/*.contenedorDeLogo .logo{
-    width: 200px;
-    
-}
-.logo{
-    width: 200px;
-}
+
+
 
 /*Estilados para la navegacion*/
 .listaNavegacion{
@@ -43,11 +39,7 @@ header{
 
 
 }
-.linkNav{
-    text-decoration: none;
-    color: $color-negro;
-    font-size: 18px;
-}
+
 
 /*estilados seccion principal index*/
 .sectionPincipalIndex{
@@ -60,4 +52,5 @@ header{
 .colorFondoHeader{
     background-color: aliceblue;
 }
+
 
