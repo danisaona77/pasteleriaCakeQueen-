@@ -1,56 +1,24 @@
 /*estilados del header*/
 header{
 
-    background-color: rgb(213, 104, 122);
+    background-color: rgb(226, 15, 50);
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
     padding: 10px;
 
-    .contenedorDeLogo .logo{
-        width: 200px;
-
-        .logo{
-            width: 200px;
-        }
-        
-    }
       
 }
 
 
-
-/*Estilados para la navegacion*/
-.listaNavegacion{
-    
-    list-style: none;
-    margin: 10px;
-    display: inline block;
-    padding: 10px;
-    justify-content: end;
-
-    .linkNav{
-        text-decoration: none;
-        color: $color-negro;
-        font-size: 18px;
-    }
-    
-
-
-}
-
-
-/*estilados seccion principal index*/
-.sectionPincipalIndex{
-    
-    font-size: 20px;
-
-
-}
-
 .colorFondoHeader{
-    background-color: aliceblue;
+    background-color: rgb(240, 206, 237);
 }
+
+
+
+
+
 
 

@@ -1,4 +1,16 @@
+/*estilados del main*/
 main{
     padding: 100px;
 }
 
+@media screen and (max-width: 768px){
+   main{
+    padding: 0px;
+
+    .sectionPincipalIndex.textoCentrado{
+     font-size: 1px;
+    }
+   }
+
+    
+}
