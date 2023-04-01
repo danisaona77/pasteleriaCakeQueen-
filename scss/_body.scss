@@ -1,6 +1,6 @@
 /*color de fondo de la pagina*/
 body{
-    background-color: rgb(245, 232, 241);
+    background-color:map-get($map: $colores, $key:color-body );
     font-size: medium;
   
   
@@ -9,10 +9,11 @@ body{
   /*Horarios de atencion de las sucursales*/
   .horarioFlex{
     display: flex;
-    /*flex-direction: row-reverse;
-    justify-content:center;*/
-    padding: 30px;
-    margin: 0 auto;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    padding: 20px;
+    
 
   .boxHorariosDeAtencion{
     
@@ -20,7 +21,7 @@ body{
     -webkit-border-radius: 20px 19px 19px 19px;
     -moz-border-radius: 20px 19px 19px 19px;
     background: rgba(215,103,183,0.57);
-    padding:30px;
+    padding:20px;
     width: 50vh;
     
     

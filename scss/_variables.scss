@@ -1,4 +1,16 @@
 /*variables*/
 $color-primario: rgb(233, 218, 200);
-$color-negro: black;
+$color-footer: black;
 $color-header: rgb(247, 199, 223);
+
+
+
+/*maps*/
+
+$colores: (
+        color-primario: rgb(233, 218, 200),
+        color-footer: black,
+        color-header: rgb(247, 199, 223),
+        color-body: rgb(241, 220, 235),
+)
+   
