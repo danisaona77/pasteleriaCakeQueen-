@@ -27,4 +27,30 @@
         
     }
 
+    @media screen and (max-width: 576px) {
+        .footer{
+           
+            padding: 0px;
+           
+        
+            .contenedorRedesSociales{
+                
+        
+        
+                a{
+                    color: rgb(255, 255, 255);
+                
+                    font-size: 20px;
+
+                    margin: top 20px;
+                        
+        
+                }
+        
+                    
+                }
+                
+            }
+    }
+
 

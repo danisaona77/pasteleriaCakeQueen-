@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/*variables*/
 @import url("https://fonts.googleapis.com/css2? family= Mulish:ital,wght@0,400;1,300 & family= Nunito:ital,wght@0,300;1,200;1,500 & display=swap");
+/*variables*/
 * {
   margin: 0%;
   padding: 0;
@@ -22,16 +22,17 @@
 
 /*color de fondo de la pagina*/
 body {
-  background-color: rgb(233, 218, 200);
-  font-size: larger;
+  background-color: rgb(245, 232, 241);
+  font-size: medium;
 }
 
 /*Horarios de atencion de las sucursales*/
 .horarioFlex {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
+  /*flex-direction: row-reverse;
+  justify-content:center;*/
   padding: 30px;
+  margin: 0 auto;
 }
 .horarioFlex .boxHorariosDeAtencion {
   border-radius: 20px 19px 19px 19px;
@@ -47,47 +48,43 @@ body {
 
 /*estilados del header*/
 header {
-  background-color: rgb(213, 104, 122);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
-header .contenedorDeLogo .logo {
-  width: 200px;
-}
-header .contenedorDeLogo .logo .logo {
-  width: 200px;
+header .colorFondoHeader {
+  background-color: rgb(247, 199, 223);
 }
 
-/*Estilados para la navegacion*/
-.listaNavegacion {
-  list-style: none;
-  margin: 10px;
-  display: inline block;
-  padding: 10px;
-  justify-content: end;
-}
-.listaNavegacion .linkNav {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-}
-
-/*estilados seccion principal index*/
-.sectionPincipalIndex {
-  font-size: 20px;
-}
-
-.colorFondoHeader {
-  background-color: aliceblue;
-}
-
+/*estilados del main*/
 main {
   padding: 100px;
 }
+main .posicionTarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.posicionTarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*@media screen and (max-width: 576px){
+   main{
+
+
+    .sectionPincipalIndex.textoCentrado{
+     font-size: 1px;
+    }
+   }
+
+
+}*/
 /*Seccion footer*/
 .footer {
   background-color: black;
@@ -109,23 +106,19 @@ main {
   padding: 0%;
 }
 
-/*aca van a ir los imports*/
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 0px;
+  }
+  .footer .contenedorRedesSociales a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: top 20px;
+  }
+}
 /*estilados seccion principal index*/
 .sectionPincipalIndex {
-  background-color: rgb(243, 234, 223);
-  font-size: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  section {
-    flex-wrap: wrap;
-  }
-  section img {
-    height: 80%;
-  }
-  section img:hover {
-    width: 60%;
-  }
+  background-color: rgb(247, 199, 223);
 }
 
 /*# sourceMappingURL=estilos.css.map */

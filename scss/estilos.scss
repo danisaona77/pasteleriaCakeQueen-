@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2? family= Mulish:ital,wght@0,400;1,300 & family= Nunito:ital,wght@0,300;1,200;1,500 & display=swap' );
 @import "variables.scss";
 @import "resets.scss";
 @import "utilidades.scss";
@@ -8,23 +8,12 @@
 @import "main.scss";
 @import "footer.scss";
 @import "index.scss";
-/*imports fuentes*/
-@import url('https://fonts.googleapis.com/css2? family= Mulish:ital,wght@0,400;1,300 & family= Nunito:ital,wght@0,300;1,200;1,500 & display=swap' );
+@import "mediaqueris.scss";
 
 
 
-@media screen and (max-width: 768px){
-    section{
-        flex-wrap: wrap;
-    }
-    section img{
-        height: 80%;
-    }
-    section img:hover{
-        width: 60%;
-        
-    }
-}
+
+
 
 
 

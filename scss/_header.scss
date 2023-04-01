@@ -1,20 +1,20 @@
 /*estilados del header*/
 header{
 
-    background-color: rgb(226, 15, 50);
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
     padding: 10px;
 
-      
+    .colorFondoHeader{
+        background-color: $color-header;
+    }
+    
 }
 
 
-.colorFondoHeader{
-    background-color: rgb(240, 206, 237);
-}
+
 
 
 
