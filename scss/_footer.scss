@@ -1,5 +1,5 @@
 /*Seccion footer*/
-.footer{
+footer{
     /*aca aplique los maps*/
     background-color: map-get($map:$colores , $key:color-footer );
     height: 100px;
@@ -29,7 +29,7 @@
     }
 
     @media screen and (max-width: 576px) {
-        .footer{
+        footer{
            
             padding: 0px;
            

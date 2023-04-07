@@ -109,21 +109,21 @@ main .posicionTarjetas {
 
 }*/
 /*Seccion footer*/
-.footer {
+footer {
   /*aca aplique los maps*/
   background-color: black;
   height: 100px;
   width: 100%;
   padding: 50px;
 }
-.footer .contenedorRedesSociales {
+footer .contenedorRedesSociales {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
   align-items: center;
 }
-.footer .contenedorRedesSociales a {
+footer .contenedorRedesSociales a {
   color: rgb(241, 226, 226);
   font-size: 30px;
   text-decoration: none;
@@ -131,10 +131,10 @@ main .posicionTarjetas {
 }
 
 @media screen and (max-width: 576px) {
-  .footer {
+  footer {
     padding: 0px;
   }
-  .footer .contenedorRedesSociales a {
+  footer .contenedorRedesSociales a {
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin: top 20px;
