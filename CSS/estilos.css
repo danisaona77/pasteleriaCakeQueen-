@@ -22,10 +22,12 @@
 
 h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 h2 {
   text-align: center;
+  font-size: 2rem;
 }
 
 /*color de fondo de la pagina*/
@@ -82,10 +84,6 @@ main .posicionTarjetas {
   justify-content: space-around;
 }
 
-.formularioSucursales label {
-  padding: 20px;
-}
-
 .mapasCentrar {
   display: flex;
   flex-direction: column;
@@ -97,17 +95,6 @@ main .posicionTarjetas {
   padding: 20px;
 }
 
-/*@media screen and (max-width: 576px){
-   main{
-
-
-    .sectionPincipalIndex.textoCentrado{
-     font-size: 1px;
-    }
-   }
-
-
-}*/
 /*Seccion footer*/
 footer {
   /*aca aplique los maps*/
@@ -120,7 +107,6 @@ footer {
 footer .contenedorRedesSociales {
   display: flex;
   align-items: inline block;
-  animation: float infinite 4s ease-in-out;
   padding: 2px;
 }
 footer .contenedorRedesSociales a {
@@ -144,6 +130,7 @@ footer .contenedorRedesSociales a {
 /*estilados seccion principal index*/
 .sectionPincipalIndex {
   background-color: rgb(247, 199, 223);
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
