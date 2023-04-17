@@ -112,22 +112,23 @@ main .posicionTarjetas {
 footer {
   /*aca aplique los maps*/
   background-color: black;
-  height: 100px;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 50px;
 }
 footer .contenedorRedesSociales {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-  align-items: center;
+  align-items: inline block;
+  animation: float infinite 4s ease-in-out;
+  padding: 2px;
 }
 footer .contenedorRedesSociales a {
+  height: 200px;
   color: rgb(241, 226, 226);
   font-size: 30px;
   text-decoration: none;
-  padding: 0%;
+  padding: 10px;
 }
 
 @media screen and (max-width: 576px) {
